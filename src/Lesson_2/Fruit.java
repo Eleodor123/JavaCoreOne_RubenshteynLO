@@ -30,7 +30,7 @@ public enum Fruit {
 
 class MainFruit {
     public static void main(String[] args) {
-//        Fruit f = Fruit.APPLE;
+        Fruit f = Fruit.APPLE;
 //
 //        System.out.println(f);
 
