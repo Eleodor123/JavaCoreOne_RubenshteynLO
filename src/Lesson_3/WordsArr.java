@@ -4,7 +4,7 @@ import java.util.*;
 
 public class WordsArr {
     public static void main(String[] args) {
-        Utils.CustomRandomizer rnd = new  Utils.CustomRandomizer();
+        Utils.CustomRandomizer rnd = new Utils.CustomRandomizer();
         ArrayList<String> wordsArrList = new ArrayList<>();
         for (int j = 0; j < rnd.rnd(10, 20); j++) {
             wordsArrList.add("A" + rnd.rnd(1, 8));

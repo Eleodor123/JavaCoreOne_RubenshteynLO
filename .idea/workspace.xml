@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Empl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MainColl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MyCompUserDefine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MySalaryComp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/META-INF/java_2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Lesson_3/MainColl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Lesson_3/MyCompUserDefine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Lesson_3/WordsArr.java" afterDir="false" />

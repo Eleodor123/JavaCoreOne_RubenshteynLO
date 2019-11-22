@@ -1,3 +1,5 @@
+package Utils;
+
 public class CustomRandomizer {
     /**
      * Генерация рандомного значения в заданных границах
