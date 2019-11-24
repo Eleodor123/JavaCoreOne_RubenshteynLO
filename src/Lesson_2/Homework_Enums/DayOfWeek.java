@@ -1,4 +1,4 @@
-package Lesson_2;
+package Lesson_2.Homework_Enums;
 
 public enum DayOfWeek {
     MONDAY,

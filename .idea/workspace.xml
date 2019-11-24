@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_3/PhoneBookMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_2/Homework_Exceptions/MainHW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_3/WordsArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_3/WordsArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/Homework_Enums/DayOfWeek.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -37,7 +34,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectId" id="1TyERfxUDrVBIEJdHeG5zj0OcGm" />
+  <component name="ProjectId" id="1TxrNIlmThSn3nxInnsjojUfoPv" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -68,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhoneBookMain">
+  <component name="RunManager" selected="Application.MainHW">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -89,13 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.MainEx" />
-      <module name="java_2" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.DZ.MainClass" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="PATTERN" value="Lesson_2.DZ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordsArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.WordsArr" />
+    <configuration name="MainHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Homework.MainHW" />
       <module name="java_2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="Lesson_2.Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +176,13 @@
       <item itemvalue="Application.MainEx" />
       <item itemvalue="Application.MainFactorial" />
       <item itemvalue="Application.DayOfWeekMain" />
-      <item itemvalue="Application.WordsArr" />
-      <item itemvalue="Application.PhoneBookMain" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.MainHW" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoneBookMain" />
-        <item itemvalue="Application.WordsArr" />
+        <item itemvalue="Application.MainHW" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.DayOfWeekMain" />
         <item itemvalue="Application.MainFactorial" />
         <item itemvalue="Application.MainEx" />
@@ -220,16 +216,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_2$MainHW.ic" NAME="MainHW Coverage Results" MODIFIED="1574422874861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson_2.Homework.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
