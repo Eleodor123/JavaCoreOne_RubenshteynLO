@@ -1,6 +1,6 @@
 package Lesson_5;
 
-public class DeamoThread {
+public class DaemoThread {
     public static void main(String[] args) {
         Thread timer = new Thread(new Runnable() {
             @Override

@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5/MainClassHomeWork5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/MainRex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4/MainRex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainRex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainRex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyRunnableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyRunnableClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_5/DeamoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_5/DaemoThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +84,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainRex">
+  <component name="RunManager" selected="Application.MainClassHomeWork5">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayOfWeekMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.DayOfWeekMain" />
+    <configuration name="DaemoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.DaemoThread" />
       <module name="java_2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,13 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.MainFactorial" />
+    <configuration name="MainClassHomeWork5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.MainClassHomeWork5" />
       <module name="java_2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainFactorial" />
-      <item itemvalue="Application.DayOfWeekMain" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.MainHW" />
       <item itemvalue="Application.MainRex" />
+      <item itemvalue="Application.DaemoThread" />
+      <item itemvalue="Application.MainClassHomeWork5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClassHomeWork5" />
+        <item itemvalue="Application.DaemoThread" />
         <item itemvalue="Application.MainRex" />
         <item itemvalue="Application.MainHW" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.DayOfWeekMain" />
-        <item itemvalue="Application.MainFactorial" />
       </list>
     </recent_temporary>
   </component>
