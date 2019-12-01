@@ -1,7 +1,7 @@
 package Lesson_5;
 
 public class MainClassHomeWork5 {
-    static final int SIZE = 15000000;
+    static final int SIZE = 150000000;
     static final int HALF_SIZE = SIZE/2;
 
     public static void main(String[] args) {
@@ -12,7 +12,12 @@ public class MainClassHomeWork5 {
 
     public float[] arrCalc (float[] arrToCalc) {
         for (int i = 0; i < arrToCalc.length; i++) {
-            arrToCalc[i] = (float) (arrToCalc[i] * Math.sin(0.2f + arrToCalc[i] / 5) * Math.cos(0.2f + arrToCalc[i] / 5) * Math.cos(0.4f + arrToCalc[i] / 2));
+            try {
+                arrToCalc[i] = (float) (arrToCalc[i] * Math.sin(0.2f + arrToCalc[i] / 5) * Math.cos(0.2f + arrToCalc[i] / 5) * Math.cos(0.4f + arrToCalc[i] / 2));
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
         }
         return arrToCalc;
     }
@@ -38,14 +43,24 @@ public class MainClassHomeWork5 {
         System.arraycopy(arr, 0, arr1, 0, HALF_SIZE);
         System.arraycopy(arr, HALF_SIZE, arr2, 0, HALF_SIZE);
 
-        new Thread(() -> {
-            float[] a1 = arrCalc(arr1);
+        Thread t1 = new Thread(() -> {
+            float[] a1 = MainClassHomeWork5.this.arrCalc(arr1);
             System.arraycopy(a1, 0, arr1, 0, a1.length);
-        }).start();
-        new Thread(() -> {
-            float[] a2 = arrCalc(arr2);
+        });
+
+        Thread t2 = new Thread(() -> {
+            float[] a2 = MainClassHomeWork5.this.arrCalc(arr2);
             System.arraycopy(a2, 0, arr2, 0, a2.length);
-        }).start();
+        });
+
+        t1.start();
+        t2.start();
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         System.arraycopy(arr1, 0, arr, 0, HALF_SIZE);
         System.arraycopy(arr2, 0, arr, HALF_SIZE, HALF_SIZE);
