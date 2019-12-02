@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
 public class ClientHandler {
-    private Socket socket;
+    Socket socket;
     DataInputStream in;
     DataOutputStream out;
     MainServer server;

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ClientName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ServerMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
