@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ClientName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ServerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ClientName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWorkAdditional/ServerMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,15 +78,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientName">
+  <component name="RunManager" selected="Application.ClientMain">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6.HomeWorkAdditional.ClientName" />
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.HomeWorkAdditional.ClientMain" />
       <module name="java_2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -193,12 +189,12 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.MainServer" />
       <item itemvalue="Application.ServerStart" />
-      <item itemvalue="Application.ClientName" />
+      <item itemvalue="Application.ClientMain" />
       <item itemvalue="Application.ServerMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientName" />
+        <item itemvalue="Application.ClientMain" />
         <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ServerStart" />

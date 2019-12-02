@@ -12,37 +12,30 @@ public class ServerMain {
         Server s = new Server();
         s.start();
         s.catchClient();
-        new Thread() {
-            public void run() {
-                while (true) {
-                    String txt = null;
-                    try {
-                        txt = s.in.readLine();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    if (txt != null) {
-                        try {
-                            s.sendMessage(txt);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-            }
-        }.start();
-
-        new Thread() {
-            public void run() {
+        new Thread(() -> {
+            while (true) {
+                String txt = null;
                 try {
-                    s.writeToConsole();
+                    txt = s.in.readLine();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                if (txt != null) {
+                    try {
+                        s.sendMessage(txt);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
-        }.start();
-
-        //s.writeToConsole();
+        }).start();
+        new Thread(() -> {
+            try {
+                s.writeToConsole();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
     }
 }
 
@@ -61,7 +54,7 @@ class Server {
             System.out.println("Can't open port 8585");
             System.exit(1);
         }
-        System.out.print("Server started. Waiting for a client...");
+        System.out.print("Server started");
     }
 
     void catchClient() throws IOException {

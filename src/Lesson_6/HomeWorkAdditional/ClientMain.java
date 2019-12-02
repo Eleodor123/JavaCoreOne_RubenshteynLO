@@ -6,30 +6,26 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class ClientName {
+public class ClientMain {
     public static void main(String[] args) throws IOException {
         Client client = new Client();
         System.out.println("Client started. Connecting to localhost: 8585");
 
-        new Thread() {
-            public void run() {
-                try {
-                    client.readMSG();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try {
+                client.readMSG();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        }.start();
+        }).start();
 
-        new Thread() {
-            public void run() {
-                try {
-                    client.sendMSG();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try {
+                client.sendMSG();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        }.start();
+        }).start();
     }
 }
 

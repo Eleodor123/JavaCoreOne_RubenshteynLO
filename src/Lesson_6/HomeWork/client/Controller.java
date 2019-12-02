@@ -33,7 +33,6 @@ public class Controller implements Initializable {
     final int PORT = 8189;
 
     public void sendMSGToItem(ActionEvent actionEvent) {
-
         try {
             out.writeUTF(msgSendInput.getText());
             msgSendInput.clear();
@@ -51,23 +50,20 @@ public class Controller implements Initializable {
             in = new DataInputStream(socket.getInputStream());
             out = new DataOutputStream(socket.getOutputStream());
 
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
+            new Thread(() -> {
+                try {
+                    while (true) {
+                        String str = in.readUTF();
+                        if (str.equals("/ServerClosed")) break;
+                        msgArea.appendText(str + "\n");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } finally {
                     try {
-                        while (true) {
-                            String str = in.readUTF();
-                            if (str.equals("/ServerClosed")) break;
-                            msgArea.appendText(str + "\n");
-                        }
+                        socket.close();
                     } catch (IOException e) {
                         e.printStackTrace();
-                    } finally {
-                        try {
-                            socket.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
                     }
                 }
             }).start();
