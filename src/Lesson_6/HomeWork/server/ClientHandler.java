@@ -4,6 +4,9 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class ClientHandler {
     private Socket socket;
@@ -30,7 +33,7 @@ public class ClientHandler {
                                 break;
                             }
                             server.broadCastMsg(msg);
-                            System.out.println("Client: " + msg);
+                            System.out.println("Client: " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
                         }
                     } catch (IOException e) {
                         e.printStackTrace();

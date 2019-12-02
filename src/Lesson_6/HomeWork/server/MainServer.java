@@ -4,6 +4,9 @@ package Lesson_6.HomeWork.server;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.Vector;
 
 public class MainServer {
@@ -43,7 +46,7 @@ public class MainServer {
 
     public void broadCastMsg(String msg) {
         for (ClientHandler o: clients) {
-            o.sendMsg(msg);
+            o.sendMsg("- " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
         }
     }
 
