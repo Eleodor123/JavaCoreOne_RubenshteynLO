@@ -13,6 +13,7 @@ public class ClientHandler {
     DataInputStream in;
     DataOutputStream out;
     MainServer server;
+    String nick;
 
     public ClientHandler(MainServer server, Socket socket) {
         try {
@@ -23,6 +24,22 @@ public class ClientHandler {
 
             new Thread(() -> {
                 try {
+                    //авторизация
+                    while (true) {
+                        String msg = in.readUTF();
+                        if (msg.startsWith("/auth")) {
+                            String[] tokens = msg.split(" ");
+                            String newNick = AuthService.getNickByLoginPass(tokens[1], tokens[2]);
+                            if (newNick != null) {
+                                sendMsg("/authOk");
+                                nick = newNick;
+                                server.clientLogIn(ClientHandler.this);
+                                break;
+                            } else {
+                                sendMsg("Error in login or password!");
+                            }
+                        }
+                    }
                     //общение с клиентом
                     while (true) {
                         String msg = in.readUTF();
@@ -31,7 +48,7 @@ public class ClientHandler {
                             break;
                         }
                         server.broadCastMsg(msg);
-                        System.out.println("Client: " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
+                        System.out.println(nick + ": " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
