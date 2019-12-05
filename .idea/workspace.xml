@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/CLI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Client$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/SRV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Server$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientMain">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -190,10 +205,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientMain" />
-        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.ClientMain" />
+        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.MainServer" />
       </list>
     </recent_temporary>

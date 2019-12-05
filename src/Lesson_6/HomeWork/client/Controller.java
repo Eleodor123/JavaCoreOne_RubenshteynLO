@@ -43,6 +43,17 @@ public class Controller implements Initializable {
         }
     }
 
+    public void Dispose() {
+        System.out.println("Exit message sent to server");
+        try {
+            if (out != null) {
+                out.writeUTF("/end");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
