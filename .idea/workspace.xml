@@ -2,67 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Assasin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Assasin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainAnimals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainAnimals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Competitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Competitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Cross.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Cross.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Obstacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Wall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Water.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/TestInc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/TestInc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Tools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/FactorialException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/FactorialException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeekMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeekMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MainHW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MainHW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArrayDataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArrayDataException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArraySizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArraySizeException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFactorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFactorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainOuterInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainOuterInner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Empl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Empl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MainColl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MainColl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MyCompUserDefine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MyCompUserDefine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MySalaryComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MySalaryComp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBookMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainRex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainRex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" afterDir="false" />
     </list>
@@ -106,7 +51,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">

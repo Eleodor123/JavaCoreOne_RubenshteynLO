@@ -48,9 +48,21 @@ public class MainServer {
     }
 
     public void broadCastMsg(String msg) {
-        for (ClientHandler o: clients) {
-            o.sendMsg("- " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
+        for (ClientHandler client: clients) {
+            client.sendMsg("- " + ZonedDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM)) + ": " + msg);
         }
+    }
+
+    public void whisperMsg(ClientHandler from, String to, String msg)
+    {
+
+        for (ClientHandler client: clients) {
+            if(client.getNick().equals(to)) {
+                client.sendMsg(from.getNick() + " whispers: " + msg);
+                break;
+            }
+        }
+        from.sendMsg("Whispers: " + to + " " + msg);
     }
 
     //добавление клиента в вектор
