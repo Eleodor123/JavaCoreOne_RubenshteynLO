@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +46,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../26112019/Ayrat Kharrasov/ChatWindow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqlite-jdbc-3.21.0.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -74,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientMain">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -190,10 +200,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientMain" />
-        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.ClientMain" />
+        <item itemvalue="Application.ServerMain" />
         <item itemvalue="Application.MainServer" />
       </list>
     </recent_temporary>
@@ -261,21 +271,5 @@
     <SUITE FILE_PATH="coverage/java_2$MainHW.ic" NAME="MainHW Coverage Results" MODIFIED="1574422874861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Lesson_2.Homework.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
