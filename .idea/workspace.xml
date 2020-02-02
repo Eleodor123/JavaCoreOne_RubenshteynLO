@@ -2,14 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da8e225-14dc-40a3-bd1f-a74820266e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HomeWork/server/MainServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Assasin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Game/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainAnimals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/MainBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Competitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Competitor/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Cross.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Obstacle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Wall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Marathon/Obstacle/Water.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/SuperCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/TestInc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_1/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/FactorialException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Enums/DayOfWeekMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MainHW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Homework_Exceptions/MyArraySizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFactorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainFruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/MainOuterInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_2/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/Empl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MainColl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MyCompUserDefine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/MySalaryComp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/PhoneBookMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_3/WordsArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainRex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_4/MyWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/DaemoThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/DaemoThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainAtm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassHomeWork5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainClassThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MainCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyRunnableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_5/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/MainServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWork/server/ServerStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/ClientMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/HomeWorkAdditional/ServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/client/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/client/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/server/ClientHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/server/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/server/MainServ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Lesson_6/Lesson/server/ServerStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_2/Utils/CustomRandomizer.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +122,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1TxrNIlmThSn3nxInnsjojUfoPv" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -192,11 +289,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ClientMain" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.MainServer" />
-      <item itemvalue="Application.ServerStart" />
-      <item itemvalue="Application.ClientMain" />
       <item itemvalue="Application.ServerMain" />
+      <item itemvalue="Application.ServerStart" />
     </list>
     <recent_temporary>
       <list>
@@ -237,6 +334,36 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="18520000" />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -246,6 +373,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
