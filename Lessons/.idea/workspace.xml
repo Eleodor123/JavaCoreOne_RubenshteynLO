@@ -252,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HW3">
+  <component name="RunManager" selected="Application.HW4">
     <configuration name="HW3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3.HW3" />
       <module name="Lessons" />
@@ -266,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkLes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.HomeworkLes2" />
+    <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.HW4" />
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
+          <option name="PATTERN" value="Lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson1.LambdaApp" />
+    <configuration name="HomeworkLes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.HomeworkLes2" />
       <module name="Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW4" />
         <item itemvalue="Application.HW3" />
         <item itemvalue="Application.HomeworkLes2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainDB" />
-        <item itemvalue="Application.LambdaApp" />
       </list>
     </recent_temporary>
   </component>
